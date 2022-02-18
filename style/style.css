@@ -12,32 +12,25 @@ body{
   padding: 0px;
   border: 1px solid #000;
   border-radius: 25px;
-  width: 740px;
-  height: 430px;
-  display: flex;
-  
-}
-.link{
-  margin: 5px;
-  width: 400px;
-  height: 100px;
-  padding: 0;
-  margin: 0;
+  width: 700px;
+  height: 420px;
+  display: flex; 
 }
 
-.container .img img{
+#img img{
   margin: 10px;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-right: 0;
   width: 400px;
 }
-ul{
-  list-style: none;
-  display: flex;
-  padding-left: 10px;
-  
+
+#choose{
+  color: #1D569E;
+  margin: 10px 15px 0px 12px;
+  font-size: 16px;
 }
-ul li a{
+
+.navbar ul li a{
   border: 1px solid #1D569E;
   font-size: 20px;
   margin: 3px;
@@ -46,47 +39,51 @@ ul li a{
   text-align: center;
 }
 
-#choose{
-  color: #1D569E;
-  margin: 10px 15px;
-  font-size: 18px;
- 
+.navbar ul{
+  list-style: none;
+  display: flex;
+  padding-left: 10px;
+  margin-top: 10px;
 }
 
-.name{
-  padding: 0px;
-  margin: 10px;
-  margin-top: 70px;
-  margin-bottom: 0;
-  width: 300px;
-  height: 275px;
+.two{;
+  height: 400px;
+  margin-top: 10px;
 }
-.name h1{
-  margin: 0;
-}
+
 #men{
   margin: 0;
+  margin-top: 20px;
   color: #1D569E;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+h1{
+  margin: 0;
+  margin-top: 5px;
+  font-size: 25px;
 }
 
 #dollar{
-  margin: 0;
   color: #1D569E;
   font-size: 30px;
+  margin: 7px 0px;
+}
+
+#lorem{
+  width: 250px;
+  padding-right: 10px;
+  margin: 0px;
+  margin-top: 15px;
 }
 
 .button{
-  text-align: center;
-}
-
-#button{ 
-  width: 300px;
+  width: 250px;
   height: 40px;
   border-radius: 5px;
   font-size: 15px;
-  margin: 15px 0px;
+  margin-bottom: 10px;
   color: white;
   border:none;
   background-color: #0066DD;
-} 
+}
